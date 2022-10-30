@@ -1,6 +1,7 @@
 # Git 基本操作
 
-Gitをコマンドラインで操作して基本操作を理解する
+Gitをコマンドラインで操作して基本操作を理解する😁👍
+
 
 ## リポジトリをコピー(clone)
 
@@ -16,13 +17,14 @@ Gitをコマンドラインで操作して基本操作を理解する
 ブランチ名を`feature1`とする  
 `git branch feature1`
 
-```git
+ブランチを`feature1`に切替
+`git checkout feature1`
 
-git branch ブランチ名
-
-```
+(git checkout -b feature1)
 
 
+
+<!-- 
 |Column1  |Column2  |Column3  |
 |---------|---------|---------|
 |Row1     |         |         |
@@ -87,7 +89,7 @@ table<font color="red">赤色</font>
 <td>データ3-2</td>
 <td>データ3-3</td>
 </tr>
-</table>
+</table> -->
 
 ## ファイルを追加・更新しコミット
 
